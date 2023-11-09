@@ -1,15 +1,43 @@
-:root {
-  /* color */
-  --lightblue: #f2f6ff;
-  --white: white;
-  --text: #234cad;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600&display=swap');
 
-  /* font size */
-  --heading: 48px;
+:root {
+    /* color */
+    --lightblue: #f2f6ff;
+    --white: white;
+    --text: #234cad;
+  
+    /* font size */
+    --heading: 48px;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+  }
+
+  .nav-link{
+    color: #234cad;
+    background-color: #234cad;
+  }
+
+  .button-primary{
+    width: 120px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    color: #234CAD;
+    background-color: white;
 }
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
+
+.button-secondary {
+    width: 120px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    margin-left: 15px;
 }
