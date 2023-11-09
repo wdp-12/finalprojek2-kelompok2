@@ -1,0 +1,15 @@
+:root {
+  /* color */
+  --lightblue: #f2f6ff;
+  --white: white;
+  --text: #234cad;
+
+  /* font size */
+  --heading: 48px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
