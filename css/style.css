@@ -17,8 +17,8 @@
   }
 
   .nav-link{
-    color: #234cad;
-    background-color: #234cad;
+    color: var(--text);
+    background-color: var(--text);
   }
 
   .button-primary{
@@ -28,6 +28,10 @@
     border-radius: 30px;
     color: #234CAD;
     background-color: white;
+}
+
+.button-primary{
+  border-color: var(--text);
 }
 
 .button-secondary {
