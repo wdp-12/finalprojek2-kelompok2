@@ -30,7 +30,44 @@
     background-color: white;
 }
 
+
 .button-primary{
+
+.header {
+  margin-top: 5vh;
+  margin-left: 10vh;
+  width: 200vh;
+}
+ 
+#menu-toggle {
+  opacity: 0;
+}
+#menu-toggle:checked + .menu-btn > span {
+  transform: rotate(45deg);
+}
+#menu-toggle:checked + .menu-btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.menu-btn > span,
+.menu-btn > span::after {
+  position: absolute;
+  top: 3.5vh;
+  width: 30px;
+  height: 2px;
+  cursor: pointer;
+  background-color: var(--text);
+}
+
+.menu-btn > span::after {
+  content: '';
+  top: 1vh;
+}
+
+
+.button-primary {
+
   border-color: var(--text);
 }
 
