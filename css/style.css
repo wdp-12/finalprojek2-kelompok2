@@ -1,15 +1,80 @@
-:root {
-  /* color */
-  --lightblue: #f2f6ff;
-  --white: white;
-  --text: #234cad;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600&display=swap');
 
-  /* font size */
-  --heading: 48px;
+:root {
+    /* color */
+    --lightblue: #f2f6ff;
+    --white: white;
+    --text: #234cad;
+  
+    /* font size */
+    --heading: 48px;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+  }
+
+  .nav-link{
+    color: var(--text);
+    background-color: var(--text);
+  }
+
+  .button-primary{
+    width: 120px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    color: #234CAD;
+    background-color: white;
 }
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
+
+.header {
+  margin-top: 5vh;
+  margin-left: 10vh;
+  width: 200vh;
+}
+ 
+#menu-toggle {
+  opacity: 0;
+}
+#menu-toggle:checked + .menu-btn > span {
+  transform: rotate(45deg);
+}
+#menu-toggle:checked + .menu-btn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.menu-btn > span,
+.menu-btn > span::after {
+  position: absolute;
+  top: 3.5vh;
+  width: 30px;
+  height: 2px;
+  cursor: pointer;
+  background-color: var(--text);
+}
+
+.menu-btn > span::after {
+  content: '';
+  top: 1vh;
+}
+
+
+.button-primary {
+  border-color: var(--text);
+}
+
+.button-secondary {
+    width: 120px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    background-color: #F2F6FF;
+    color: #234CAD;
+    margin-left: 15px;
 }
