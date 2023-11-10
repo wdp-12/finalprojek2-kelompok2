@@ -123,6 +123,7 @@ footer {
 }
 .card-upload {
   width: 350px;
+  height: 100px;
   display: flex;
   background-color: var(--white);
   padding: 15px;
@@ -141,15 +142,54 @@ footer {
   padding: 2px;
   background-color: var(--lightblue) !important;
   border: 1px solid var(--text);
-  border-width: 10%;
 }
-.upload-text {
+.card-text {
   font-size: 16px;
   font-weight: bold;
   line-height: 5px;
 }
-.upload-text span {
+.card-text span {
   font-weight: 400;
   font-size: 12px;
   line-height: 5px;
+}
+.card-upload2 {
+  width: 130px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+  margin-top: -60px;
+  padding: 25px;
+  border-radius: 25px;
+  height: 160px;
+}
+.upload2-text {
+  font-size: 10px;
+}
+.card-calendar {
+  width: 276px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 15px;
+  gap: 10px;
+  border-radius: 25px;
+  justify-content: start;
+  align-items: start;
+}
+.profile-text {
+  width: 40px;
+  height: 40px;
+  background-color: var(--lightblue);
+  border: 3px solid var(--white);
+  border-radius: 40px;
+
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
