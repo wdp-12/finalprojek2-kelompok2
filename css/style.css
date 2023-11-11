@@ -23,21 +23,46 @@
   height: 50px;
   border-radius: 50px;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text);
   text-decoration: none;
 }
+.button-primary:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: var(--text);
+  color: var(--white);
+  transition: all;
+  transition-duration: 0.8s;
+}
+.button-outline:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: var(--text);
+  color: var(--white);
+  transition: all;
+  transition-duration: 0.8s;
+}
+
 .button-outline {
   width: 135px;
   height: 50px;
   background-color: var(--white);
   border: 1px solid var(--text);
-
+  transition: all;
+  transition-duration: 0.5s;
   border-radius: 50px;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text);
   text-decoration: none;
+}
+
+.button-primary:active {
+  scale: 0.9;
+  transition: all;
+  transition-duration: 0.8s;
+}
+.button-outline:active {
+  scale: 0.9;
 }
 
 .nav-item a {
@@ -75,6 +100,7 @@
 
 /* Footer */
 footer {
+  margin-top: 10vh;
   color: var(--text);
 }
 
@@ -83,8 +109,10 @@ footer {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   text-align: left;
-  margin: 0 20vw 0 20vw;
+  width: 70%;
+  margin: auto;
 }
+
 
 .grid-item h2 {
   margin-bottom: 20px;
@@ -92,4 +120,144 @@ footer {
 
 .copyright {
   margin-top: 30px;
+}
+
+/* card */
+.card-bg-lightblue {
+  background-color: var(--lightblue) !important ;
+}
+.card-header-left {
+  width: 500px;
+}
+.card-header-left h1 {
+  width: 400px;
+}
+.card-header-left p {
+  width: 400px;
+}
+.card-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  width: 75px;
+  height: 75px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.card-custom img {
+  width: 70%;
+  object-fit: contain;
+}
+.card-upload {
+  width: 350px;
+  height: 100px;
+  display: flex;
+  background-color: var(--white);
+  padding: 15px;
+  gap: 10px;
+  border-radius: 25px;
+  justify-content: start;
+  align-items: center;
+}
+.img-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 53px;
+  height: 53px;
+  border-radius: 50px;
+  padding: 2px;
+  background-color: var(--lightblue) !important;
+  border: 1px solid var(--text);
+}
+.card-text {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 5px;
+}
+.card-text span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 5px;
+}
+.card-upload2 {
+  width: 130px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+  margin-top: -60px;
+  padding: 25px;
+  border-radius: 25px;
+  height: 160px;
+}
+.upload2-text {
+  font-size: 10px;
+}
+.card-calendar {
+  width: 276px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 15px;
+  gap: 10px;
+  border-radius: 25px;
+  justify-content: start;
+  align-items: start;
+}
+.profile-text {
+  width: 40px;
+  height: 40px;
+  background-color: var(--lightblue);
+  border: 3px solid var(--white);
+  border-radius: 40px;
+
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  padding: 20px;
+}
+
+.contact h1 {
+  padding: 20px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  width: 25vw;
+  margin: 0 auto; 
+  flex-direction:row;
+  padding: 5px;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+
+.border-0 {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+  border: 0;
+}
+
+.border-0:focus {
+  outline: none;
+}
+
+.border-0::placeholder {
+  color: var(--text);
+  opacity: 0.5;
+}
+
+.submit {
+  border: none;
+  background-color: var(--white);
 }
