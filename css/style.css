@@ -15,6 +15,7 @@
   color: var(--text);
 }
 
+/* Navbar */
 .button-primary {
   width: 135px;
   background-color: var(--lightblue);
@@ -74,6 +75,30 @@
   font-weight: 700;
 }
 
+/* Hero Section */
+#hero{
+  background: linear-gradient(160deg, var(--lightblue));
+  background-color: var(--lightblue);
+  color: var(--text);
+  margin: 0 5vw 0 5vw;
+  border-radius: 20px;
+  height: 50vh;
+  width: 90%;
+}
+
+.button{
+  width: 135px;
+  height: 50px;
+  border: 2px solid var(--text);
+  background-color: var(--lightblue);
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+}
+
+/* Footer */
 footer {
   margin-top: 10vh;
   color: var(--text);
