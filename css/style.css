@@ -197,6 +197,14 @@ footer {
   align-items: center;
 }
 
+.contact {
+  padding: 20px;
+}
+
+.contact h1 {
+  padding: 20px;
+}
+
 .form-container {
   display: flex;
   align-items: center;
