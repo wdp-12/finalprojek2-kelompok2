@@ -224,7 +224,6 @@ footer {
   background-color: var(--lightblue);
   border: 3px solid var(--white);
   border-radius: 40px;
-
   font-size: 12px;
   display: flex;
   justify-content: center;
@@ -393,4 +392,27 @@ footer {
     height: 100%;
     backdrop-filter: blur(100px);
   }
+/* Product1 */
+
+.card-bg-lightblue {
+  background-color: var(--lightblue) !important ;
+}
+.card-header-right {
+  width: 100%;
+}
+.card-header-right h5 {
+  width: 400px;
+}
+.card-header-right p {
+  width: 400px;
+}
+.card-body .card-header-right {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  left: 60%;
+  overflow: hidden;
+
 }
