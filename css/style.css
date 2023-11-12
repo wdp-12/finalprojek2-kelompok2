@@ -45,7 +45,7 @@
 .button-outline {
   width: 135px;
   height: 50px;
-  background-color: var(--white);
+  background-color: transparent;
   border: 1px solid var(--text);
   transition: all;
   transition-duration: 0.5s;
@@ -127,6 +127,8 @@ footer {
 }
 .card-header-left {
   width: 100%;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .card-header-right {
@@ -316,6 +318,8 @@ footer {
 .header-responsive {
   overflow: hidden;
   padding: 10px;
+  height: 400px !important;
+  box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
 }
 .right-responsive {
   position: absolute;
@@ -335,41 +339,80 @@ footer {
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
+  .header-responsive {
+    height: 400px !important;
+    display: block;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
+  }
   .card-header-left {
-    margin-top: -100px;
+    padding: 0 30px;
+    margin-top: 50px;
+    text-align: center;
   }
   .right-responsive {
     position: absolute;
-    bottom: 0;
-    z-index: -100;
-    top: 30px;
-    bottom: 0;
-    backdrop-filter: blur(100px);
+    top: 90px;
   }
 }
 
 /* Media Query untuk layar di antara md dan lg */
 @media (min-width: 768px) and (max-width: 992px) {
   .header-responsive {
-    height: auto !important;
+    height: 400px !important;
+    display: block;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
   }
+  .card-header-left {
+    padding: 0 70px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .right-responsive {
+    position: absolute;
+    top: 90px;
+  }
+  /* .blur-background {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px); 
+    z-index: -99;
+  } */
 }
 
 /* Media Query untuk layar di antara lg dan xl */
 @media (min-width: 992px) and (max-width: 1200px) {
   .header-responsive {
     height: 575px !important;
+    box-shadow: none;
   }
   .right-responsive {
     position: absolute;
-    right: -110px;
+    right: -250px;
     top: 60px;
   }
   .card-header-left h1 {
     width: 400px;
   }
+  .card-header-left {
+    padding: 30px;
+    text-align: left;
+  }
   .card-header-left p {
-    width: 400px;
+    width: 300px;
+  }
+  .blur-background {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px); /* Efek blur untuk latar belakang */
+    z-index: -99;
   }
 }
 
@@ -378,6 +421,7 @@ footer {
   .header-responsive {
     height: 575px !important;
     overflow: visible;
+    box-shadow: none;
   }
   .right-responsive {
     /* background-color: transparent; */
@@ -398,6 +442,10 @@ footer {
     width: 400px;
   }
   .card-header-left p {
-    width: 400px;
+    width: 300px;
+  }
+  .card-header-left {
+    padding: 50px;
+    text-align: left;
   }
 }
