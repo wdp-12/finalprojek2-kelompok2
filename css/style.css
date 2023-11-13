@@ -510,7 +510,7 @@ footer {
   text-align: center;
   background-color: var(--white); 
   border: 3px solid var(--text);
-  border-radius: 500px;
+  border-radius: 50px;
 }
 
 .card-body3 .card-header{
@@ -539,6 +539,20 @@ footer {
   color: var(--white);
   transition: all;
   transition-duration: 0.8s;
+}
+
+.card-body2 .button-outline{
+  background-color: var(--white);
+  border: 2px solid var(--text);
+  transition: all;
+  transition-duration: 0.5s;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+  width: 135px;
+  height: 50px;
 }
 
 .card-body3 .button-primary {
