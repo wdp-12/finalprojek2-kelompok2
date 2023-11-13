@@ -100,7 +100,7 @@
 
 /* Footer */
 footer {
-  margin-top: 10vh;
+  margin-top: 50px;
   color: var(--text);
 }
 
@@ -365,6 +365,117 @@ footer {
   z-index: -99;
 }
 
+
+/* Product 1 */
+.card-body .card-header-right h1 {
+  width: 400px;
+}
+.card-body .card-header-right p {
+  width: 300px;
+}
+.card-body .card-header-right {
+  padding: 50px;
+  text-align: left;
+}
+.card-body .card-header-right {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  left: 55%;
+  overflow: hidden;
+}
+
+/* Pricing */
+.card-body1 .card-header {
+  padding: 50px;
+  text-align: center;
+  background-color: var(--lightblue); 
+}
+
+.card-body2 .card-header{
+  padding: 50px;
+  text-align: center;
+  background-color: var(--white); 
+  border: 3px solid var(--text);
+  border-radius: 50px;
+}
+
+.card-body3 .card-header{
+  padding: 50px;
+  text-align: center;
+  background-color: var(--lightblue); 
+}
+
+.card-body1 .button-primary {
+  background-color: var(--white);
+  /* border: 1px solid var(--text); */
+  transition: all;
+  transition-duration: 0.5s;
+  /* border-radius: 50px; */
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+  width: 135px;
+  height: 50px;
+}
+
+.card-body1 .button-primary:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: var(--text);
+  color: var(--white);
+  transition: all;
+  transition-duration: 0.8s;
+}
+
+.card-body2 .button-outline{
+  background-color: var(--white);
+  border: 2px solid var(--text);
+  transition: all;
+  transition-duration: 0.5s;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+  width: 135px;
+  height: 50px;
+}
+
+.card-body3 .button-primary {
+  background-color: var(--white);
+  /* border: 1px solid var(--text); */
+  transition: all;
+  transition-duration: 0.5s;
+  /* border-radius: 50px; */
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--text);
+  text-decoration: none;
+  width: 135px;
+  height: 50px;
+}
+
+.card-body3 .button-primary:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  background-color: var(--text);
+  color: var(--white);
+  transition: all;
+  transition-duration: 0.8s;
+}
+
+/* about */
+.about-header {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.about-content {
+  width: calc(50% - 2px);
+}
+
 @media (min-width: 576px) and (max-width: 768px) {
   .header-responsive {
     height: 400px !important;
@@ -477,103 +588,4 @@ footer {
   }
 }
 
-/* Product 1 */
-.card-body .card-header-right h1 {
-  width: 400px;
-}
-.card-body .card-header-right p {
-  width: 300px;
-}
-.card-body .card-header-right {
-  padding: 50px;
-  text-align: left;
-}
-.card-body .card-header-right {
-  position: absolute;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  left: 55%;
-  overflow: hidden;
-}
-
-/* Pricing */
-.card-body1 .card-header {
-  padding: 50px;
-  text-align: center;
-  background-color: var(--lightblue); 
-}
-
-.card-body2 .card-header{
-  padding: 50px;
-  text-align: center;
-  background-color: var(--white); 
-  border: 3px solid var(--text);
-  border-radius: 50px;
-}
-
-.card-body3 .card-header{
-  padding: 50px;
-  text-align: center;
-  background-color: var(--lightblue); 
-}
-
-.card-body1 .button-primary {
-  background-color: var(--white);
-  /* border: 1px solid var(--text); */
-  transition: all;
-  transition-duration: 0.5s;
-  /* border-radius: 50px; */
-  cursor: pointer;
-  font-weight: 700;
-  color: var(--text);
-  text-decoration: none;
-  width: 135px;
-  height: 50px;
-}
-
-.card-body1 .button-primary:hover {
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  background-color: var(--text);
-  color: var(--white);
-  transition: all;
-  transition-duration: 0.8s;
-}
-
-.card-body2 .button-outline{
-  background-color: var(--white);
-  border: 2px solid var(--text);
-  transition: all;
-  transition-duration: 0.5s;
-  border-radius: 50px;
-  cursor: pointer;
-  font-weight: 700;
-  color: var(--text);
-  text-decoration: none;
-  width: 135px;
-  height: 50px;
-}
-
-.card-body3 .button-primary {
-  background-color: var(--white);
-  /* border: 1px solid var(--text); */
-  transition: all;
-  transition-duration: 0.5s;
-  /* border-radius: 50px; */
-  cursor: pointer;
-  font-weight: 700;
-  color: var(--text);
-  text-decoration: none;
-  width: 135px;
-  height: 50px;
-}
-
-.card-body3 .button-primary:hover {
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  background-color: var(--text);
-  color: var(--white);
-  transition: all;
-  transition-duration: 0.8s;
-}
 
