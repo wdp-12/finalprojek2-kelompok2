@@ -449,3 +449,28 @@ footer {
     text-align: left;
   }
 }
+
+/* Product 1 */
+.card-body .card-header-right h1 {
+  width: 400px;
+}
+.card-body .card-header-right p {
+  width: 300px;
+}
+.card-body .card-header-right {
+  padding: 50px;
+  text-align: left;
+}
+.card-body .card-header-right {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  left: 55%;
+  overflow: hidden;
+}
+
+
+
+
