@@ -468,12 +468,21 @@ footer {
 
 /* about */
 .about-header {
-  margin-top: 50px;
-  margin-left: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 85px;
+  margin-left: 85px;
+  overflow: hidden;
 }
 
 .about-content {
-  width: calc(50% - 2px);
+  width: 276px;
+  height: 160px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 20px;
+  margin-right: 25px;
+  margin-bottom: 25px;
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -588,7 +597,6 @@ footer {
   padding: 15px;
   gap: 10px;
   margin-left: 150px;
-  margin-bottom: 180px;
   border-radius: 25px;
   justify-content: center;
   align-items: center;
