@@ -597,10 +597,26 @@ footer {
   padding: 15px;
   gap: 10px;
   margin-left: 150px;
+  margin-bottom: 150px;
   border-radius: 25px;
   justify-content: center;
   align-items: center;
 }
 
+.transform-container
+.card-profile2{
+  position: absolute;
+  width: 130px;
+  height: 160px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  left: 483px;
+  top: 466px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 
