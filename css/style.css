@@ -365,7 +365,6 @@ footer {
   z-index: -99;
 }
 
-
 /* Product 1 */
 .card-body .card-header-right h1 {
   width: 400px;
@@ -391,21 +390,21 @@ footer {
 .card-body1 .card-header {
   padding: 50px;
   text-align: center;
-  background-color: var(--lightblue); 
+  background-color: var(--lightblue);
 }
 
-.card-body2 .card-header{
+.card-body2 .card-header {
   padding: 50px;
   text-align: center;
-  background-color: var(--white); 
+  background-color: var(--white);
   border: 3px solid var(--text);
   border-radius: 50px;
 }
 
-.card-body3 .card-header{
+.card-body3 .card-header {
   padding: 50px;
   text-align: center;
-  background-color: var(--lightblue); 
+  background-color: var(--lightblue);
 }
 
 .card-body1 .button-primary {
@@ -430,7 +429,7 @@ footer {
   transition-duration: 0.8s;
 }
 
-.card-body2 .button-outline{
+.card-body2 .button-outline {
   background-color: var(--white);
   border: 2px solid var(--text);
   transition: all;
@@ -485,111 +484,8 @@ footer {
   margin-bottom: 25px;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
-  .header-responsive {
-    height: 400px !important;
-    display: block;
-    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
-  }
-  .card-header-left {
-    padding: 0 30px;
-    margin-top: 50px;
-    text-align: center;
-  }
-  .right-responsive {
-    position: absolute;
-    top: 90px;
-  }
-}
-
-/* Media Query untuk layar di antara md dan lg */
-@media (min-width: 768px) and (max-width: 992px) {
-  .header-responsive {
-    height: 400px !important;
-    display: block;
-    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.1);
-  }
-  .card-header-left {
-    padding: 0 70px;
-    margin-top: 10px;
-    text-align: center;
-  }
-  .right-responsive {
-    position: absolute;
-    top: 90px;
-  }
-}
-
-/* Media Query untuk layar di antara lg dan xl */
-@media (min-width: 992px) and (max-width: 1200px) {
-  .header-responsive {
-    height: 575px !important;
-    box-shadow: none;
-  }
-  .right-responsive {
-    position: absolute;
-    right: -250px;
-    top: 60px;
-  }
-  .card-header-left h1 {
-    width: 400px;
-  }
-  .card-header-left {
-    padding: 30px;
-    text-align: left;
-  }
-  .card-header-left p {
-    width: 300px;
-  }
-  .blur-background {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(10px); /* Efek blur untuk latar belakang */
-    z-index: -99;
-  }
-}
-
-/* Media Query untuk layar lebih besar dari xl (extra large) */
-@media (min-width: 1200px) {
-  .header-responsive {
-    height: 575px !important;
-    overflow: visible;
-    box-shadow: none;
-  }
-  .right-responsive {
-    /* background-color: transparent; */
-    position: absolute;
-    right: -110px;
-    top: 60px;
-  }
-  .blur-background {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(100px);
-  }
-  .card-header-left h1 {
-    width: 400px;
-  }
-  .card-header-left p {
-    width: 300px;
-  }
-  .card-header-left {
-    padding: 50px;
-    text-align: left;
-  }
-}
-
 /* Trans Message */
-.transform-container
-.card-profile {
+.transform-container .card-profile {
   width: 350px;
   height: 100px;
   display: flex;
@@ -603,8 +499,7 @@ footer {
   align-items: center;
 }
 
-.transform-container
-.card-profile2{
+.transform-container .card-profile2 {
   position: absolute;
   width: 130px;
   height: 160px;
@@ -618,5 +513,3 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
-
